@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument('--fold', type=int, default=0)
 parser.add_argument('--data_path', type=str, default="~/dataset/")
-parser.add_argument('--summ_path_root', type=int, default="~/summary/")
+parser.add_argument('--summ_path_root', type=str, default="~/summary/")
 parser.add_argument('--train', dest='train', action='store_true')
 parser.add_argument('--test', dest='train', action='store_false')
 parser.add_argument("--maxfold", type=int, default=5)
